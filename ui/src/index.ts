@@ -9,15 +9,15 @@ export default definePlugin({
     {
       parentName: "Root",
       route: {
-        path: "/example",
-        name: "Example",
+        path: "/timeline",
+        name: "TimeLine",
         component: HomeView,
         meta: {
-          title: "示例页面",
+          title: "时间线",
           searchable: true,
           menu: {
-            name: "示例页面",
-            group: "示例分组",
+            name: "时间线",
+            group: "content",
             icon: markRaw(IconPlug),
             priority: 0,
           },
